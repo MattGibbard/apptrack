@@ -1,0 +1,15 @@
+<form class="form-inline" action="/register" method="POST">
+    <div class="form-group mb-2">
+      <label for="inputUsername" class="sr-only">Username</label>
+      <input type="text" class="form-control" id="inputUsername" name="username" placeholder="Username">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Register</button>
+</form>
+
+<% if (typeof errormsg !== 'undefined') { %>
+  <p class="error"><%= errormsg %></p>
+<% } %>
