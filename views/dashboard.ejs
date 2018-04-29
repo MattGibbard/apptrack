@@ -1,0 +1,29 @@
+<% include ../partials/header %>
+<% include ../partials/nav %>
+
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Welcome</h1>
+
+        <% include ../partials/applist %>
+
+        <form action="/logout" method="GET">
+          <button type="submit">Log Out</button>
+        </form>
+
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+
+
+
+
+
+<% include ../partials/footer %>
