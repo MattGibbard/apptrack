@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
   padding-top: 3.5rem;
@@ -10,3 +11,17 @@ p.error {
 img.appicon {
   border-radius: 16%;
 }
+=======
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+p.error {
+  color: red;
+}
+
+img.appicon {
+  border-radius: 16%;
+}
+>>>>>>> c42bfc99ee7efe1e70d39641aa79fa9b2539c205
