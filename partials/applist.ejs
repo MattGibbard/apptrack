@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h3>Add new app</h3>
 <p>You can add a new app to your watchlist below</p>
 
@@ -37,44 +36,4 @@
               </tr>
             <% } %>
         </tbody>
-=======
-<h3>Add new app</h3>
-<p>You can add a new app to your watchlist below</p>
-
-<form class="form-inline" action="/add_app" method="POST">
-    <div class="form-group mb-2">
-        <input type="text" class="form-control" id="inputappurl" name="inputappurl" placeholder="420009108">
-    </div>
-    <button type="submit" class="btn btn-primary mb-2">Add</button>
-</form>
-
-
-<h3>Watched apps</h3>
-<p>All of your watched apps can be found below</p>
-
-
-<table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Icon</th>
-            <th scope="col">App</th>
-            <th scope="col">Price Now</th>
-            <th scope="col">Added Price</th>
-            <th scope="col">Rating</th>
-            <th scope="col">Remove</th>
-          </tr>
-        </thead>
-        <tbody>
-            <% for(var i=0; i<data1; i++) {%>
-              <tr>
-                <td><img class="appicon" src="<%= data2[0][data3[i]].artwork %>" height="32" width="32" alt="Mountain View"></td>
-                <td><a href="<%= data2[0][data3[i]].url %>" target="_blank"><%= data2[0][data3[i]].trackName %></a></td>
-                <td>£<%= data2[0][data3[i]].nowprice %></td>
-                <td>£<%= data2[0][data3[i]].addedprice %></td>
-                <td><%= data2[0][data3[i]].rating %>/5</td>
-                <td><a href=""><span class="badge badge-danger badge-pill">X</span></a></td>
-              </tr>
-            <% } %>
-        </tbody>
->>>>>>> c42bfc99ee7efe1e70d39641aa79fa9b2539c205
       </table>
