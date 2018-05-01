@@ -18,6 +18,7 @@ You can see the latest version here:
 * Remove old/improve current console logs
 * Improve app adding functionality (add by full URL or name)
 * Explore recently added apps by other users
+* Rename variables to be clearer
 
 ### Built using
 ---
